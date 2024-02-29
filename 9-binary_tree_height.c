@@ -1,6 +1,19 @@
 #include "binary_trees.h"
 
 /**
+ * max - Returns the maximum of 2 values.
+ * @a: The first value.
+ * @b: The second value.
+ *
+ * Return: The max of the two.
+ */
+
+size_t max(size_t a, size_t b)
+{
+	return ((a > b) ? a : b);
+}
+
+/**
  * binary_tree_height - Returns the height of a binary tree
  * @tree: ptr to the root of the tree to be measured.
  *
